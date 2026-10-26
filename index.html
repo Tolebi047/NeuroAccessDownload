@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="kk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#071426" />
+    <meta name="description" content="NeuroAccess — ым-қимылды сөзге айналдыратын қолжетімділікке арналған мобильді қосымша." />
+    <title>NeuroAccess — қол қимылын сөзге айналдырыңыз</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="NeuroAccess басты беті">
+        <span class="brand-mark" aria-hidden="true">N</span>
+        <span>Neuro<span>Access</span></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Негізгі навигация">
+        <a href="#features" data-i18n="navFeatures">Мүмкіндіктер</a>
+        <a href="#install" data-i18n="navInstall">Жүктеу</a>
+        <a href="#how" data-i18n="navHow">Қалай жұмыс істейді</a>
+      </nav>
+      <div class="header-actions">
+        <label class="sr-only" for="language" data-i18n="languageLabel">Тілді таңдау</label>
+        <select id="language" aria-label="Тілді таңдау">
+          <option value="kz">ҚАЗ</option>
+          <option value="ru">РУС</option>
+          <option value="en">ENG</option>
+        </select>
+        <a class="header-cta" href="#install" data-i18n="downloadButton">Қосымшаны алу</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse"></span><span data-i18n="eyebrow">Қолжетімді қарым-қатынасқа бір қадам</span></div>
+          <h1 data-i18n="heroTitle">Қол қимылын<br /><span>сөзге айналдырыңыз.</span></h1>
+          <p class="hero-text" data-i18n="heroText">NeuroAccess қол жесттерін танып, нәтижесін экранға шығарады. Қарапайым, түсінікті және күнделікті қолдануға ыңғайлы.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#install"><span data-i18n="downloadButton">Қосымшаны алу</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-quiet" href="#features" data-i18n="learnMore">Толығырақ</a>
+          </div>
+          <div class="hero-proof">
+            <span class="proof-icon" aria-hidden="true">✋</span>
+            <span><strong data-i18n="gestureCount">8 жестті тану</strong><small data-i18n="languageCount">Қазақша · Русский · English</small></span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="NeuroAccess қосымшасының таныстырылымы">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="phone">
+            <div class="phone-top"><span>9:41</span><span class="phone-sensors"></span><span>●●●  ▰</span></div>
+            <div class="phone-appbar"><span class="mini-logo">N</span><span><b>AI Камера</b><small data-i18n="phoneSubtitle">Жестті көрсетіңіз</small></span><span class="gear">⚙</span></div>
+            <div class="camera-preview">
+              <div class="camera-glow"></div>
+              <div class="hand-illustration" aria-hidden="true">✋</div>
+              <span class="corner c1"></span><span class="corner c2"></span><span class="corner c3"></span><span class="corner c4"></span>
+              <span class="scan-label" data-i18n="scanLabel">Қол анықталды</span>
+            </div>
+            <div class="result-card"><small data-i18n="recognized">Танылған жест</small><strong data-i18n="hello">Сәлем</strong><span class="confidence"><i></i><i></i><i></i><i></i><i></i></span><small data-i18n="resultHint">Қосымша көрінісі</small></div>
+            <div class="phone-tabs"><span>⌂</span><span class="active-tab">◉</span><span>▤</span><span>◷</span></div>
+          </div>
+          <div class="floating-note note-top"><span class="note-dot"></span><span data-i18n="offlineNote">Қосымша сервермен байланысады</span></div>
+          <div class="floating-note note-bottom"><span class="note-symbol">✓</span><span data-i18n="simpleNote">Қарапайым әрі қолжетімді</span></div>
+        </div>
+      </section>
+
+      <section id="features" class="features section-wrap">
+        <div class="section-heading"><span class="eyebrow" data-i18n="featuresEyebrow">Қосымшада</span><h2 data-i18n="featuresTitle">Қажетті мүмкіндіктер —<br />бір жерде.</h2></div>
+        <div class="feature-grid">
+          <article class="feature-card feature-camera"><div class="feature-icon">◉</div><h3 data-i18n="featureCameraTitle">Камера арқылы тану</h3><p data-i18n="featureCameraText">Қолды камераға көрсетіп, танылған жесттің атауын бірден көріңіз.</p><span class="card-number">01</span></article>
+          <article class="feature-card feature-dictionary"><div class="feature-icon">▤</div><h3 data-i18n="featureDictionaryTitle">Жесттер сөздігі</h3><p data-i18n="featureDictionaryText">Қосымша танитын жесттерді қарап, олардың мағынасын үйреніңіз.</p><span class="card-number">02</span></article>
+          <article class="feature-card feature-history"><div class="feature-icon">◷</div><h3 data-i18n="featureHistoryTitle">Аударма тарихы</h3><p data-i18n="featureHistoryText">Соңғы танылған нәтижелерді сақтап, қажет кезде қайта қараңыз.</p><span class="card-number">03</span></article>
+        </div>
+      </section>
+
+      <section id="install" class="install-section">
+        <div class="section-wrap install-inner">
+          <div class="install-copy"><span class="eyebrow" data-i18n="installEyebrow">Орнатуға дайынсыз ба?</span><h2 data-i18n="installTitle">NeuroAccess-ті<br /><span>Android телефоныңызға алыңыз.</span></h2><p data-i18n="installText">Қазір Android нұсқасын дайындап жатырмыз. APK дайын болғанда осы беттен жүктеп алуға болады.</p></div>
+          <div class="platform-cards">
+            <article class="platform-card">
+              <div class="platform-top"><span class="platform-icon android-icon">A</span><span class="platform-status" data-i18n="androidStatus">APK build жасалуда</span></div>
+              <h3>Android</h3><p data-i18n="androidDescription">Android орнату файлы · APK</p>
+              <a id="android-download" class="button button-disabled" aria-disabled="true" tabindex="-1"><span data-i18n="comingSoon">Дайындалуда</span><span aria-hidden="true">↗</span></a>
+            </article>
+          </div>
+          <div class="server-note"><span class="server-note-icon">i</span><p><strong data-i18n="serverTitle">Сервер туралы</strong><br /><span data-i18n="serverText">Қазіргі демо нұсқада тану сервері ноутбукте жұмыс істейді. Қолданба дұрыс тануы үшін телефон мен ноутбук бір Wi‑Fi немесе хотспот желісіне қосылуы керек.</span></p></div>
+        </div>
+      </section>
+
+      <section id="how" class="how-section section-wrap">
+        <div class="section-heading"><span class="eyebrow" data-i18n="howEyebrow">Қолдану жолы</span><h2 data-i18n="howTitle">Үш қадамда бастаңыз.</h2></div>
+        <div class="steps">
+          <article class="step"><span class="step-num">1</span><div><h3 data-i18n="stepOneTitle">APK файлын жүктеп орнатыңыз</h3><p data-i18n="stepOneText">Android телефонында жүктелген APK-ны ашыңыз. Сұралса, браузерге қолданба орнатуға рұқсат беріп, орнатуды аяқтаңыз.</p></div></article>
+          <article class="step"><span class="step-num">2</span><div><h3 data-i18n="stepTwoTitle">Ноутбук серверіне қосылыңыз</h3><p data-i18n="stepTwoText">Серверді ноутбукте іске қосыңыз. Телефон мен ноутбук бір Wi‑Fi немесе хотспотта болсын; сервер мекенжайын қолданбаның параметрлеріне енгізіңіз.</p></div></article>
+          <article class="step"><span class="step-num">3</span><div><h3 data-i18n="stepThreeTitle">Жестті камераға көрсетіңіз</h3><p data-i18n="stepThreeText">Камераға рұқсат беріп, қолыңызды анық әрі жарық жерде ұстаңыз.</p></div></article>
+        </div>
+      </section>
+
+      <section class="closing section-wrap"><div class="closing-mark">N</div><p data-i18n="closingText">Қарым-қатынасқа қолжетімділік — әркімге ортақ мүмкіндік.</p><a href="#install" data-i18n="downloadButton">Қосымшаны алу</a></section>
+    </main>
+
+    <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">N</span><span>Neuro<span>Access</span></span></a><p data-i18n="footerText">Студенттік демо жоба · 2026</p><a href="#home" data-i18n="backTop">Жоғары ↑</a></footer>
+  </body>
+</html>

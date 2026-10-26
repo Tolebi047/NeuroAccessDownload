@@ -1,0 +1,49 @@
+const copy = {
+  kz: {
+    languageLabel: "Тілді таңдау", navFeatures: "Мүмкіндіктер", navInstall: "Жүктеу", navHow: "Қалай жұмыс істейді", downloadButton: "Қосымшаны алу", eyebrow: "Қолжетімді қарым-қатынасқа бір қадам", heroTitle: "Қол қимылын<br /><span>сөзге айналдырыңыз.</span>", heroText: "NeuroAccess қол жесттерін танып, нәтижесін экранға шығарады. Қарапайым, түсінікті және күнделікті қолдануға ыңғайлы.", learnMore: "Толығырақ", gestureCount: "8 статикалық жестті тану", languageCount: "Қазақша · Русский · English", phoneSubtitle: "Жестті көрсетіңіз", scanLabel: "Қол анықталды", recognized: "Танылған жест", hello: "Сәлем", resultHint: "Қосымша көрінісі", offlineNote: "Қосымша сервермен байланысады", simpleNote: "Қарапайым әрі қолжетімді", featuresEyebrow: "Қосымшада", featuresTitle: "Қажетті мүмкіндіктер —<br />бір жерде.", featureCameraTitle: "Камера арқылы тану", featureCameraText: "Қолды камераға көрсетіп, танылған жесттің атауын бірден көріңіз.", featureDictionaryTitle: "Жесттер сөздігі", featureDictionaryText: "Қосымша танитын жесттерді қарап, олардың мағынасын үйреніңіз.", featureHistoryTitle: "Аударма тарихы", featureHistoryText: "Соңғы танылған нәтижелерді сақтап, қажет кезде қайта қараңыз.", installEyebrow: "Орнатуға дайынсыз ба?", installTitle: "NeuroAccess-ті<br /><span>Android телефоныңызға алыңыз.</span>", installText: "Қазір Android нұсқасын дайындап жатырмыз. APK дайын болғанда осы беттен жүктеп алуға болады.", androidStatus: "APK құрастырылып жатыр", androidDescription: "Android орнату файлы · APK", iosStatus: "TestFlight әлі дайын емес", iosDescription: "iPhone-ға TestFlight арқылы", comingSoon: "Дайындалуда", downloadApkButton: "Android APK жүктеу", serverTitle: "Сервер туралы", serverText: "Қазіргі демо нұсқада тану сервері ноутбукте жұмыс істейді. Қолданба дұрыс тануы үшін телефон мен ноутбук бір Wi‑Fi немесе хотспот желісіне қосылуы керек.", howEyebrow: "Қолдану жолы", howTitle: "Үш қадамда бастаңыз.", stepOneTitle: "APK файлын жүктеп орнатыңыз", stepOneText: "Android телефонында жүктелген APK-ны ашыңыз. Сұралса, браузерге қолданба орнатуға рұқсат беріп, орнатуды аяқтаңыз.", stepTwoTitle: "Ноутбук серверіне қосылыңыз", stepTwoText: "Серверді ноутбукте іске қосыңыз. Телефон мен ноутбук бір Wi‑Fi немесе хотспотта болсын; сервер мекенжайын қолданбаның параметрлеріне енгізіңіз.", stepThreeTitle: "Жестті камераға көрсетіңіз", stepThreeText: "Камераға рұқсат беріп, қолыңызды анық әрі жарық жерде ұстаңыз.", closingText: "Қарым-қатынасқа қолжетімділік — әркімге ортақ мүмкіндік.", footerText: "Студенттік демо жоба · 2026", backTop: "Жоғары ↑"
+  },
+  ru: {
+    languageLabel: "Выбрать язык", navFeatures: "Возможности", navInstall: "Скачать", navHow: "Как это работает", downloadButton: "Скачать приложение", eyebrow: "Шаг к доступному общению", heroTitle: "Переводите жесты<br /><span>в понятные слова.</span>", heroText: "NeuroAccess распознаёт жесты и показывает результат на экране. Просто, понятно и удобно для повседневного использования.", learnMore: "Подробнее", gestureCount: "Распознавание 8 статических жестов", languageCount: "Қазақша · Русский · English", phoneSubtitle: "Покажите жест", scanLabel: "Рука обнаружена", recognized: "Распознанный жест", hello: "Привет", resultHint: "Вид приложения", offlineNote: "Приложение подключается к серверу", simpleNote: "Просто и доступно", featuresEyebrow: "В приложении", featuresTitle: "Нужные функции —<br />в одном месте.", featureCameraTitle: "Распознавание камерой", featureCameraText: "Покажите руку камере и сразу увидите название распознанного жеста.", featureDictionaryTitle: "Словарь жестов", featureDictionaryText: "Просматривайте жесты, которые распознаёт приложение, и изучайте их значение.", featureHistoryTitle: "История переводов", featureHistoryText: "Сохраняйте последние результаты и возвращайтесь к ним при необходимости.", installEyebrow: "Готовы установить?", installTitle: "Установите NeuroAccess<br /><span>на Android-телефон.</span>", installText: "Сейчас готовим версию для Android. Когда APK будет готов, его можно будет скачать с этой страницы.", androidStatus: "APK собирается", androidDescription: "Файл установки Android · APK", iosStatus: "TestFlight ещё не готов", iosDescription: "Установка на iPhone через TestFlight", comingSoon: "Готовится", downloadApkButton: "Скачать APK для Android", serverTitle: "О сервере", serverText: "В текущей демо-версии сервер распознавания работает на ноутбуке. Для распознавания телефон и ноутбук должны быть подключены к одной Wi‑Fi-сети или хотспоту.", howEyebrow: "Как пользоваться", howTitle: "Начните в три шага.", stepOneTitle: "Скачайте и установите APK", stepOneText: "Откройте скачанный APK на Android. Если появится запрос, разрешите браузеру устанавливать приложения и завершите установку.", stepTwoTitle: "Подключитесь к серверу ноутбука", stepTwoText: "Запустите сервер на ноутбуке. Подключите телефон к той же Wi‑Fi-сети или хотспоту и укажите адрес сервера в настройках приложения.", stepThreeTitle: "Покажите жест камере", stepThreeText: "Разрешите доступ к камере и держите руку чётко в хорошо освещённом месте.", closingText: "Доступное общение — возможность для каждого.", footerText: "Студенческая демо-версия · 2026", backTop: "Наверх ↑"
+  },
+  en: {
+    languageLabel: "Choose language", navFeatures: "Features", navInstall: "Download", navHow: "How it works", downloadButton: "Get the app", eyebrow: "One step toward accessible communication", heroTitle: "Turn hand gestures<br /><span>into clear words.</span>", heroText: "NeuroAccess recognizes hand gestures and displays the result on screen. Simple, clear, and made for everyday use.", learnMore: "Learn more", gestureCount: "Recognizes 8 static gestures", languageCount: "Қазақша · Русский · English", phoneSubtitle: "Show a gesture", scanLabel: "Hand detected", recognized: "Recognized gesture", hello: "Hello", resultHint: "App preview", offlineNote: "App connects to a server", simpleNote: "Simple and accessible", featuresEyebrow: "In the app", featuresTitle: "Useful features,<br />all in one place.", featureCameraTitle: "Camera recognition", featureCameraText: "Show your hand to the camera and see the recognized gesture right away.", featureDictionaryTitle: "Gesture dictionary", featureDictionaryText: "Browse the gestures recognized by the app and learn what they mean.", featureHistoryTitle: "Translation history", featureHistoryText: "Keep recent results and review them whenever you need.", installEyebrow: "Ready to install?", installTitle: "Get NeuroAccess<br /><span>on your Android phone.</span>", installText: "We are preparing the Android version. Once the APK is ready, you can download it from this page.", androidStatus: "APK build in progress", androidDescription: "Android install package · APK", iosStatus: "TestFlight not ready yet", iosDescription: "Install on iPhone through TestFlight", comingSoon: "Coming soon", downloadApkButton: "Download Android APK", serverTitle: "About the server", serverText: "In the current demo, the recognition server runs on a laptop. For gestures to be recognized, the phone and laptop must be on the same Wi‑Fi or hotspot network.", howEyebrow: "How to use it", howTitle: "Get started in three steps.", stepOneTitle: "Download and install the APK", stepOneText: "Open the downloaded APK on Android. If prompted, allow your browser to install apps and finish the installation.", stepTwoTitle: "Connect to the laptop server", stepTwoText: "Start the server on the laptop. Connect the phone to the same Wi‑Fi or hotspot, then enter the server address in app settings.", stepThreeTitle: "Show a gesture to the camera", stepThreeText: "Allow camera access and hold your hand clearly in a well-lit place.", closingText: "Accessible communication is an opportunity for everyone.", footerText: "Student demo project · 2026", backTop: "Back to top ↑"
+  }
+};
+
+const languageSelect = document.querySelector("#language");
+
+function applyLanguage(language) {
+  const strings = copy[language] || copy.kz;
+  document.documentElement.lang = language === "kz" ? "kk" : language;
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const value = strings[element.dataset.i18n];
+    if (value) element.innerHTML = value;
+  });
+  try { localStorage.setItem("neuroaccess-download-language", language); } catch { /* storage can be unavailable in private browsing */ }
+}
+
+let savedLanguage = "kz";
+try { savedLanguage = localStorage.getItem("neuroaccess-download-language") || "kz"; } catch { /* use Kazakh by default */ }
+languageSelect.value = copy[savedLanguage] ? savedLanguage : "kz";
+applyLanguage(languageSelect.value);
+languageSelect.addEventListener("change", (event) => applyLanguage(event.target.value));
+
+
+async function enableAndroidDownloadIfReady() {
+  const link = document.querySelector("#android-download");
+  try {
+    const response = await fetch("./downloads/NeuroAccess-Android.apk", { method: "HEAD", cache: "no-store" });
+    if (!response.ok) return;
+    link.href = "./downloads/NeuroAccess-Android.apk";
+    link.setAttribute("download", "NeuroAccess-Android.apk");
+    link.classList.remove("button-disabled");
+    link.removeAttribute("aria-disabled");
+    link.removeAttribute("tabindex");
+    link.querySelector("[data-i18n]").dataset.i18n = "downloadApkButton";
+    applyLanguage(languageSelect.value);
+  } catch {
+    // The site stays in its not-ready state until the APK is deployed.
+  }
+}
+
+enableAndroidDownloadIfReady();
