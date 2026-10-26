@@ -4,11 +4,11 @@ A small static landing page for sharing the NeuroAccess Android APK. The page su
 
 ## Preview locally
 
-Open `index.html` in a browser. The page has no build step. The APK download button stays disabled until `downloads/NeuroAccess-Android.apk` exists and is served by the site.
+Open `index.html` in a browser. The page has no build step. The Android download button points to the latest GitHub Release asset.
 
-## Add the APK
+## Upload the APK as a GitHub Release asset
 
-Copy the finished APK to `downloads/NeuroAccess-Android.apk`. The page checks for that file and automatically enables the Android download link.
+The current APK is about 118 MB, larger than GitHub's 100 MB regular repository file limit. Keep it out of the Pages source and upload `release-assets/NeuroAccess-Android.apk` as an asset on a GitHub Release. Release assets can be up to 2 GiB each. Use the asset name `NeuroAccess-Android.apk`; the page links to the latest release download.
 
 ## Runtime requirement
 
